@@ -41,7 +41,7 @@ const rooms = [
 
 //common call api status
 app.get("/", (req, res) => {
-  res.status(200).send("Server is running successfully ");
+  res.status(200).send("Hall Booking API by saichakri is running successfully!");
 });
 
 //create a room with no_of_seats, amenities, price_per_hour
