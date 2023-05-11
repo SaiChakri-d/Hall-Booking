@@ -126,7 +126,7 @@ app.get("/booked-rooms", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  console.log("server is running successfully");
+  console.log("Hall Booking API by saichakri is running successfully");
 });
 
 const port = process.env.PORT || 8000;
